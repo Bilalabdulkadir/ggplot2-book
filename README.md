@@ -1,8 +1,10 @@
+
 # ggplot2 Book
 
 Learning and development fork of **ggplot2: Elegant Graphics for Data Analysis**.
 
-<!-- GitHub Actions -->
+This repository supports practical learning in R programming, statistical visualization, reproducible research, and automated documentation.
+
 ## Build Status
 
 [![Build Book](https://github.com/Bilalabdulkadir/ggplot2-book/actions/workflows/build_book.yaml/badge.svg?branch=main)](https://github.com/Bilalabdulkadir/ggplot2-book/actions/workflows/build_book.yaml)
@@ -20,11 +22,11 @@ The project explores data visualization using R and ggplot2, including:
 - Grammar of Graphics
 - Data visualization principles
 - Geometric objects and aesthetic mappings
-- Scales, coordinates and themes
+- Scales, coordinates, and themes
 - Statistical summaries
 - Advanced visualization techniques
 
-This repository is a fork of the original project by Hadley Wickham and contributors.
+This repository is a fork of the original project by Hadley Wickham and contributors. It is maintained as a learning and development environment while preserving attribution to the original authors.
 
 **Original repository:**  
 https://github.com/hadley/ggplot2-book
@@ -42,7 +44,9 @@ https://ggplot2-book.org/
 
 ## Installing Dependencies
 
-Install the required R packages and Quarto dependencies for the project.
+Install the required R packages and Quarto dependencies before building the book.
+
+Use the dependency configuration and instructions provided in the repository.
 
 ## Building the Book Locally
 
@@ -56,24 +60,23 @@ The rendered website is generated in the `_book` directory.
 
 ## Automated Build and Deployment
 
-GitHub Actions automates the book-building process.
+GitHub Actions automates the book-building process through the `build_book.yaml` workflow.
 
-The `build_book.yaml` workflow supports:
+The workflow supports:
 
 - Push events to `main`
 - Pull requests targeting `main`
 - Manual workflow execution
 - Daily scheduled builds
 
-Successful builds on `main` generate a GitHub Pages deployment artifact.
+The build job renders the book and uploads the `_book` directory as a GitHub Pages artifact. The deployment job publishes the artifact to GitHub Pages when the workflow completes successfully.
 
-Workflow details:
-
+**Workflow details:**  
 https://github.com/Bilalabdulkadir/ggplot2-book/actions
 
 ## Contributing
 
-Contributions, corrections and improvements are welcome.
+Contributions, corrections, and improvements are welcome.
 
 Please review the project's contribution guidelines:
 
@@ -93,5 +96,5 @@ This repository supports practical learning and exploration of:
 
 Credit goes to Hadley Wickham and the original ggplot2 book contributors for creating and maintaining the underlying educational resource.
 
-Original project:
+**Original project:**  
 https://github.com/hadley/ggplot2-book
