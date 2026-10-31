@@ -1,4 +1,3 @@
-
 # ggplot2 Book
 
 Learning and development fork of **ggplot2: Elegant Graphics for Data Analysis**.
